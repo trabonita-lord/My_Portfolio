@@ -3,41 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | My Portfolio</title>
-   <link rel="stylesheet" href="css/style.css">
-
+    <title>Tristan Jay - Computer Science Portfolio</title>
+    <link rel="stylesheet" href="style (1).css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-text">BY</span>
+            </div>
             <ul class="nav-menu">
-                <li><a href="index.html"class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="projects.html" class="nav-link">Projects</a></li>
-                <li><a href="contacts.html" class="nav-link">Contact</a></li>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Welcome to Tristan's Portfolio</h1>
-                <div class="profile-image">
-                   <img src="images/Screenshot_2025-11-08-01-13-10-781_..jpg" alt="Profile Picture">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="Screenshot_2025-11-08-01-13-10-781_..jpg" alt="Tristan Jay" class="hero-image">
+            <h1 class="hero-title">Tristan Jay</h1>
+            <p class="hero-subtitle">Computer Science Student | Interested in tech | Data Science Enthusiast</p>
+            <p class="hero-description">Building innovative digital solutions with Python, Web Development, and Machine Learning</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I'm a Computer Science student with a strong passion for Data Science and creating innovative digital solutions. I enjoy problem-solving through code and building projects that help me understand and grasp the field. My journey in tech has taught me the importance of continuous learning and collaboration.</p>
+                    
+                    <div class="about-info">
+                        <div class="info-card">
+                            <h3>Education</h3>
+                            <p><strong>School:</strong> CSPC</p>
+                            <p><strong>Program:</strong> Computer Science</p>
+                            <p><strong>Year Level:</strong> 1st Year</p>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>My Motto</h3>
+                            <p>"If you do something, give your 120% always or don't do it."</p>
+                        </div>
+                    </div>
                 </div>
-                <p class="intro-text">Hi my name is Tristan Jay Z. Abonita I'm a Computer Science student learning Data science and Machine learning. Discover my skills, creating projects, and expanding my connections</p>
-                <div class="cta-buttons">
-                    <a href="about.html" class="btn btn-primary">Learn About Me</a>
-                    <a href="projects.html" class="btn btn-secondary">View My Projects</a>
-                    <a href="contacts.html" class="btn btn-primary">Get In Touch</a>
+
+                <div class="skills-section">
+                    <h3 class="skills-title">Core Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 44%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">HTML & CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Data Science</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Problem Solving</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Machine Learning</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 30%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Statistics</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2025 Tristan. All rights reserved.</p>
+            <div class="interests">
+                <h3 class="interests-title">Interests & Hobbies</h3>
+                <div class="interests-list">
+                    <span class="interest-tag">Math Problem Solving</span>
+                    <span class="interest-tag">Reading</span>
+                    <span class="interest-tag">Learning New Technologies</span>
+                    <span class="interest-tag">Healthy lifestyle</span>
+                    <span class="interest-tag">Video Editing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="1_TdPrjB0rpALnR210BWqcjQ@2x.jpg" alt="Eigenvalues and Eigenvectors">
+                    </div>
+                    <div class="project-content">
+                        <h3>Eigenvalues & Eigenvectors</h3>
+                        <p>A comprehensive educational video explaining eigenvalues and eigenvectors. Demonstrates my ability to create clear, engaging content for complex mathematical concepts essential to Computer Science.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">YouTube</span>
+                            <span class="tech-tag">Education</span>
+                            <span class="tech-tag">Mathematics</span>
+                        </div>
+                        <div class="project-status completed">✓ Completed</div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="131621960-1cafb3c2-114b-4e90-8b04-bd9b949a6e9d.png" alt="Personal Resume">
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Resume</h3>
+                        <p>A professional resume hosted on GitHub showcasing my capabilities, experience, and achievements. Features a clean design with intuitive navigation and engaging content layout.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">GitHub</span>
+                        </div>
+                        <div class="project-status completed">✓ Completed</div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images.jpg" alt="Product Slider">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Product Showcase</h3>
+                        <p>An interactive product showcase website with advanced filtering capabilities and responsive grid layout. Demonstrates expertise in modern layout design and user interaction principles.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-status in-progress">⟳ In Progress</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-intro">I'm always open to discussing web development, data science, and innovative ideas. Feel free to reach out!</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:tristanjay@example.com">tristanjay@example.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <a href="tel:+6313122187xx">(+63) 131-221-87xx</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/tristanjay" target="_blank">tristanjay</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/tristanjay" target="_blank">github.com/tristanjay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Tristan Jay. All rights reserved.</p>
+            <p>Designed and built with passion for Computer Science</p>
+        </div>
     </footer>
 </body>
 </html>
+
